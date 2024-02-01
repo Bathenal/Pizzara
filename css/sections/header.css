@@ -1,0 +1,12 @@
+body {
+  background-color: red;
+}
+#container {
+  display: flex;
+}
+nav ul li {
+  display: inline-block;
+}
+.img {
+  justify-content: flex-end;
+}
