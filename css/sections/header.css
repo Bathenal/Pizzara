@@ -1,12 +1,23 @@
-body {
-  background-color: red;
-}
-#container {
+.navigation {
   display: flex;
+  justify-content: space-around;
+  background-color: #f4f7fb;
 }
 nav ul li {
-  display: inline-block;
+  padding: 1em;
+  display: inline;
+  text-decoration-line: none;
 }
-.img {
-  justify-content: flex-end;
+.navigation--image {
+  justify-content: space-around;
+  gap: 5em;
+}
+/* Change the link color to yellow on hover */
+li a:hover {
+  background-color: #e4d612;
+}
+@media screen and (max-width: 400px) {
+  #navigation {
+    text-align: center;
+  }
 }
