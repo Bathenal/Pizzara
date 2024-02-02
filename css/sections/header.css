@@ -1,23 +1,36 @@
-.navigation {
+.nav__container {
   display: flex;
   justify-content: space-around;
   background-color: #f4f7fb;
 }
-nav ul li {
-  padding: 1em;
-  display: inline;
-  text-decoration-line: none;
+.nav__center ul {
+  display: flex;
+  gap: 3em;
 }
-.navigation--image {
-  justify-content: space-around;
-  gap: 5em;
+.nav__center ul li {
+  list-style: none;
+  text-decoration: none;
+ 
 }
-/* Change the link color to yellow on hover */
+.nav__center ul li a {
+  text-decoration: none;
+  color: black;
+   padding: 2em;
+}
+.navigation__right {
+  display: flex;
+  gap: 3em;
+}
+/* Change the link color to orange on hover */
 li a:hover {
-  background-color: #e4d612;
+  background-color: #eea539;
+  color: #ffffff;
 }
 @media screen and (max-width: 400px) {
   #navigation {
     text-align: center;
   }
+}
+.home {
+  background-color: #eea539;
 }
