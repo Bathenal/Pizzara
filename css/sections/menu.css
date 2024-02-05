@@ -1,0 +1,15 @@
+.menu p{
+    justify-content: center;
+}
+.menu h1{
+    justify-content: center;
+}
+.ul li{
+    display: flex;
+
+}
+.Special Menu{
+    display: flex;
+    background-color: #f4f7fb;
+
+}
