@@ -1,0 +1,7 @@
+.Contact{
+    display: flex;
+}
+.Contact p{
+    justify-content: center;
+}
+}
