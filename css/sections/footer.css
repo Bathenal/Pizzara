@@ -2,9 +2,12 @@
     display: flex;
     flex-direction: row;
     background-color: black;
+    color: #ffffff;
+    gap: 10em;
+    padding: 4em;
 
 }
-.footer ul li {
-    list-style-type: none;
-    text-decoration-style: none;
+.footer ul li a{
+    list-style: none;
+    text-decoration: none;
 }
