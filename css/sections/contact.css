@@ -1,7 +1,8 @@
 .Contact{
     display: flex;
+    gap: 2em;
+    
 }
 .Contact p{
     justify-content: center;
-}
 }

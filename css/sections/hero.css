@@ -1,12 +1,21 @@
-.hero__icons {
+#hero{
   display: flex;
+}
+.hero__icons {
+  /* display: flex; */
 }
 .hero__icons--left {
-  display: flex;
+  /* display: flex; */
   background-color: aliceblue;
+  gap: 3em;
+
 }
-.hero__icons--right {
+.hero__icons--image{
+  display: flex;
 }
 .hero__icons--left img {
   background-color: black;
+}
+.hero__left--images{
+  display: fle;
 }

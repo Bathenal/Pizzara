@@ -1,0 +1,18 @@
+@media (max-width: 768px) {
+    #hero {
+      grid-template-columns: 1fr;
+    }
+  
+    .navigation__right .fa-bars {
+      display: block; /* Show hamburger menu */
+    }
+  
+    .nav__center ul, .navigation__right img {
+      display: none; /* Hide elements for smaller screens */
+    }
+  
+    #why-us {
+      grid-template-columns: 1fr;
+    }
+  }
+  

@@ -1,5 +1,10 @@
 .footer{
     display: flex;
+    flex-direction: row;
     background-color: black;
 
+}
+.footer ul li {
+    list-style-type: none;
+    text-decoration-style: none;
 }

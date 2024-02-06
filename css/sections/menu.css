@@ -1,4 +1,4 @@
-{
+.menu{
     display: flex;
 }
 .menu p{
@@ -19,3 +19,6 @@
 .Special Menu img{
 background-color: black;
 }
+#why-us image{
+    background-color: black;}
+    
