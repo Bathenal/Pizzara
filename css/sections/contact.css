@@ -1,8 +1,9 @@
 .Contact{
-    display: flex;
-    gap: 2em;
-    
+text-align: center;
+padding: 2em;
+margin: 2em ;
 }
-.Contact p{
-    justify-content: center;
+.Contact__section{
+    display: flex;
+    justify-content: space-around;
 }

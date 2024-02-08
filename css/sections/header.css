@@ -1,8 +1,12 @@
+
 .nav__container {
   display: flex;
   justify-content: space-around;
   background-color: #f4f7fb;
+  height: 15vh;
+  align-items: center;
 }
+
 .nav__center ul {
   display: flex;
   gap: 3em;
@@ -26,11 +30,7 @@ li a:hover {
   background-color: #eea539;
   color: #ffffff;
 }
-@media screen and (max-width: 400px) {
-  #navigation {
-    text-align: center;
-  }
-}
+
 .home {
   background-color: #eea539;
 }

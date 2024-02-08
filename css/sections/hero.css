@@ -1,11 +1,29 @@
-.hero{
+.hero {
   display: flex;
   justify-content: space-between;
 }
-.hero__left--images{
-display: flex;
-background-color: aliceblue;
+.hero__left--images {
 }
-.hero__left--images--icons img {
-  background-color: black;
+.hero__left--images--icons {
+  display: flex;
+  background-color: aliceblue;
+  /* height: 50vh; */
+  gap: 5em;
+  text-align: center;
+  justify-content: space-between;
+  padding-top:5rem;
+  row-gap:4rem;
+}
+.hero__left--images--icons img{
+background-color: black;
+}
+.hero__right--icons{
+  justify-content: space-around;
+  margin-right: 15em;
+}
+.hero__right--icons--image{
+  /* justify-content: center;
+  align-content: center;
+  align-self: auto; */
+  text-align: center;
 }

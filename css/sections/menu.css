@@ -1,10 +1,68 @@
-.menu{
-    text-align: center;
-    justify-content: center;
+.menu {
+  text-align: center;
+  justify-content: space-between;
+  margin: 1em 1em;
+  padding: 1em 1em;
 }
-.menu ul li{
-    display: inline-flex;
-    margin-top:2em ;
-    margin-right:10em ;
+.menu p,
+h1 {
+  margin: 0 auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
-    
+.menu ul li {
+  display: inline-flex;
+  margin-top: 2em;
+  margin-right: 5em;
+  padding: 1.5em;
+  /* justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  text-align: center; */
+  /* justify-items: center; */
+}
+.menu ul li:hover {
+  background-color: #eea539;
+  color: #ffffff;
+}
+.button2 {
+  align-self: auto;
+  border: none;
+  
+}
+
+.Special__Menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: wrap;
+  /* margin: 2em 2em;
+    padding: 2em 2em; */
+}
+.Special__Menu--item1,
+.Special__Menu--item2,
+.Special__Menu--item3 {
+  display: inline-block;
+  justify-content: center;
+  background-color: aliceblue;
+  /* align-items: center;
+    align-content: center; */
+  gap: 2rem;
+}
+.why {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2em;
+}
+.why__right img {
+  background-color: black;
+  border-radius: 50%;
+}
+
+.add-btn {
+  background-color: black;
+  color: white;
+  align-self: auto;
+  border: none;
+  padding: 2em;
+  margin: 2em;
+}

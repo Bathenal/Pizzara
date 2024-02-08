@@ -5,11 +5,24 @@
 @import url(sections/footer.css);
 @import url(sections/responsive.css);
 
+
 /* reset */
 
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  padding: 0 auto;
   box-sizing: border-box;
   font-family: "Kanit", sans-serif;
+}
+.button2{
+  text-align: center;
+  background-color: #eea539;
+  padding: 20px;
+  margin: 20px;
+  justify-content: space-between;
+
+}
+.span{
+  color: #eea539;
+
 }

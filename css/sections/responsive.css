@@ -1,8 +1,11 @@
 @media (max-width: 768px) {
     #hero {
-      grid-template-columns: 1fr;
+      /* grid-template-columns: 1fr; */
+      display: flex;
     }
-  
+    #navigation {
+      text-align: center;
+    }
     .navigation__right .fa-bars {
       display: block; /* Show hamburger menu */
     }
@@ -10,9 +13,21 @@
     .nav__center ul, .navigation__right img {
       display: none; /* Hide elements for smaller screens */
     }
-  
-    #why-us {
-      grid-template-columns: 1fr;
-    }
+  .Special__Menu{
+    display: block;
   }
+    .why {
+      grid-template-columns: 1fr;
+      display: block;
+    }
+    #hero{
+      /* display: block; */
+    }
+    .Contact__section{
+      display: block;
+    }
+    .footer{
+      display: block;
+    }
+    }
   
