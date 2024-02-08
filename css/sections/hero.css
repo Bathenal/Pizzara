@@ -1,8 +1,29 @@
+#hero__left--searchbox{
+  display: flex;
+
+}
+.hero__left--searchbox{
+  border:outset;
+  outline: gray;
+    /* padding: 2em; */
+}
+.input{
+  padding: 1.5em;
+  border: none;
+  outline: none;
+}
+.btn1{
+  padding: 2em;
+}
+.fas fa-search{
+  width: 2em;
+}
 .hero {
   display: flex;
   justify-content: space-between;
 }
 .hero__left--images {
+  display: flex;
 }
 .hero__left--images--icons {
   display: flex;
@@ -13,6 +34,7 @@
   justify-content: space-between;
   padding-top:5rem;
   row-gap:4rem;
+  
 }
 .hero__left--images--icons img{
 background-color: black;
