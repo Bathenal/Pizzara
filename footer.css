@@ -1,0 +1,14 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: #ffffff;
+    gap: 10em;
+    padding: 4em;
+
+}
+.quick-links ul li a{
+    list-style: none;
+    text-decoration: none;
+}
+

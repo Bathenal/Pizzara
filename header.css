@@ -1,0 +1,36 @@
+
+.nav__container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f4f7fb;
+  height: 15vh;
+  align-items: center;
+}
+
+.nav__center ul {
+  display: flex;
+  gap: 3em;
+}
+.nav__center ul li {
+  list-style: none;
+  text-decoration: none;
+ 
+}
+.nav__center ul li a {
+  text-decoration: none;
+  color: black;
+   padding: 2em;
+}
+.navigation__right {
+  display: flex;
+  gap: 3em;
+}
+/* Change the link color to orange on hover */
+li a:hover {
+  background-color: #eea539;
+  color: #ffffff;
+}
+
+.home {
+  background-color: #eea539;
+}

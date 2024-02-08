@@ -1,0 +1,9 @@
+.Contact{
+text-align: center;
+padding: 2em;
+margin: 2em ;
+}
+.Contact__section{
+    display: flex;
+    justify-content: space-around;
+}
