@@ -4,12 +4,16 @@
   padding: 1em 1em; */
   border-bottom: solid black;
 }
-.menu p {
+.menu h2 {
   padding-top: 1em;
   padding-bottom: 1em;
+  font-size: 3rem;
+  font-weight: bolder;
 }
 .menu ul li {
   display: inline-flex;
+  font-weight: bold;
+  font-size: 1.2rem;
   margin-top: 2em;
   margin-right: 5em;
   padding: 1.5em;
@@ -19,9 +23,10 @@
   text-align: center; */
   /* justify-items: center; */
 }
-.menu ul li:hover {
-  background-color: #eea539;
-  color: #ffffff;
+.menu ul :hover {
+  /* background-color: #eea539; */
+  color: #eea539;
+  border-bottom: 2px solid #eea539;
 }
 .special__menu{
   display: flex;
@@ -60,6 +65,16 @@
   font-size: 1.2rem;
   font-weight: bold;
   /*  */
+}
+.viewmore{
+  display: flex;
+  justify-content: center;
+}
+.viewmore button{
+  padding: 1em 4rem;
+  background-color: #eea539;
+  color: #ffffff;
+  font-size: 1.2rem;
 }
 
 
