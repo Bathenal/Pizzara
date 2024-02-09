@@ -6,8 +6,7 @@
     gap: 10em;
     padding: 4em;
     justify-content: space-around;
-
-
+    box-shadow: 0 0 5px lightgray;
 }
 .quick-links{
     list-style-type: none;
@@ -23,13 +22,12 @@
     padding: 2em;
     font-size: 1rem;
     width: 80%;
-}
-.footer__form__button{
-    display: flex;
-    width: 20%;
-    padding: 2em;
-    font-size: 1rem;
     
+}
+.footer__form__button button{
+    width: 20%;
+    padding: 2.5em 3.3em;
+    color: #ffffff;
     /* color: #ffffff; */
 }
 
