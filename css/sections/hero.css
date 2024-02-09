@@ -82,10 +82,10 @@
 }
 
 
-
+/* 
 .hero__right{
-  /* background-color: aquamarine; */
-}
+  background-color: aquamarine; */
+
 .hero__right--icons--image{
   display: flex;
   justify-content: center;
