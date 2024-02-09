@@ -3,31 +3,35 @@
     flex-direction: row;
     background-color: black;
     color: #ffffff;
-    gap: 10em;
+    height: 50vh;
+    /* gap: 10em; */
     padding: 4em;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     box-shadow: 0 0 5px lightgray;
 }
 .quick-links{
+
     list-style-type: none;
     text-decoration-style: none;
+}
+.quick-links ul li a{
+padding: 4em;
 }
 .footer__form{
     display: flex;
     width: 100%;
-
 }
-.footer__form input{
-    display: flex;
-    padding: 2em;
-    font-size: 1rem;
-    width: 80%;
-    
+.footer__form__input {
+    width:50%;
+}
+.footer__form__button{
+   
+    width: 25%;
+}.footer__form__input input {
+    padding: 1rem 2rem;
 }
 .footer__form__button button{
-    width: 20%;
-    padding: 2.5em 3.3em;
-    color: #ffffff;
-    /* color: #ffffff; */
+    background-color: red;
+    padding: rem rem;
 }
-
