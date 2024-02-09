@@ -1,0 +1,15 @@
+.why {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em;
+  }
+  .why__right--section{
+    background-color: aliceblue;
+  }
+  .why__right__image{
+    width: 2em;
+    border-radius: 50%;
+  }
+  .why__right img {
+    background-color: black;
+  }

@@ -1,51 +1,91 @@
-#hero__left--searchbox{
-  display: flex;
-
-}
-.hero__left--searchbox{
-  border:outset;
-  outline: gray;
-    /* padding: 2em; */
-}
-.input{
-  padding: 1.5em;
-  border: none;
-  outline: none;
-}
-.btn1{
-  padding: 2em;
-}
-.fas fa-search{
-  width: 2em;
-}
 .hero {
   display: flex;
   justify-content: space-between;
+ 
 }
+.hero__left, .hero__right{
+  flex: 1;
+}
+/* .hero__left{
+  background-color: blueviolet;
+} */
+.hero__left__content{
+  width: 90%;
+}
+.hero__left h1{
+  font-size: 5rem;
+}
+
+.hero__left--searchbox{
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 5px lightgray;
+  margin: 2em 0 4em 0;
+}
+.hero__left--searchbox form{
+  display: flex;
+  /* background-color: black; */
+  width: 100%;
+  /* color: white; */
+}
+.hero__left--searchbox form input{
+  padding: 2em;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  width: 80%;
+
+}
+.hero__left__search--btn{
+  display: flex;
+  width: 20%;
+  /* font-size: 1rem; */
+}
+.btn1{
+  /* padding: 2em; */
+}
+
+
+
 .hero__left--images {
   display: flex;
-}
-.hero__left--images--icons {
-  display: flex;
-  background-color: aliceblue;
-  /* height: 50vh; */
-  gap: 5em;
-  text-align: center;
   justify-content: space-between;
-  padding-top:5rem;
-  row-gap:4rem;
+  /* padding-top:5rem; */
   
 }
-.hero__left--images--icons img{
-background-color: black;
+
+.hero__left__card{
+  background-color: #f4f7fb;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em 0;
+  border-radius: 7px;
+
 }
-.hero__right--icons{
-  justify-content: space-around;
-  margin-right: 15em;
+.hero__left__card__image{
+  background-color: black;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-bottom: 1.5em;
+}
+.hero__left__card p{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
+
+.hero__right{
+  /* background-color: aquamarine; */
 }
 .hero__right--icons--image{
-  /* justify-content: center;
-  align-content: center;
-  align-self: auto; */
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 7em;
 }

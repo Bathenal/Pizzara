@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pizzara</title>
     <link rel="stylesheet" href="css/style.css" />
     <link
@@ -18,38 +18,41 @@
       href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-</head>
-<body>
-        <!-- header section -->
-        <header>
-            <nav>
-              <div class="nav__container">
-                <div class="nav__left">
-                  <img class="logo" alt="logo image" src="images/logo.svg" />
-                </div>
-                <div class="nav__center">
-                  <ul>
-                    <li><a href="/index.html">Home</a></li>
-                    <li><a href="#About Us">About Us</a></li>
-                    <li><a href="/shop.html">Shop</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                  </ul>
-                </div>
-                <div class="navigation__right">
-                  <div>
-                    <img src="images/shopping-cart.png" width="30" alt="" />
-                  </div>
-                  <div>
-                    <img src="images/avatar.png" width="30" alt="" />
-                  </div>
-                  <i class="fa-solid fa-bars"></i>
-                </div>
-              </div>
-            </nav>
-          </header>
-      
+  </head>
+  <body>
+    <!-- header section -->
+    <header>
+      <nav class="nav">
+        <div class="container">
+        <div class="nav__container">
+          <div class="nav__left">
+            <img class="logo" alt="logo image" src="images/logo.svg" />
+          </div>
+          <div class="nav__center">
+            <ul>
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="#About Us">About Us</a></li>
+              <li><a href="/shop.html">Shop</a></li>
+              <!-- <li><a href="#contact">Contact</a></li> -->
+            </ul>
+          </div>
+          <div class="navigation__right">
+            <div>
+              <img src="images/shopping-cart.png" width="30" alt="" />
+            </div>
+            <div>
+              <img src="images/avatar.png" width="30" alt="" />
+            </div>
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </div>
+      </nav>
+    </header>
+
     <!--menu section-->
     <section id="menu">
+      <div class="container">
         <div class="menu">
           <ul>
             <li>All</li>
@@ -61,266 +64,323 @@
           </ul>
         </div>
         <!--Special Menu-->
-        <div class="Special__Menu">
-          <div>
-          <div class="Special__Menu--item1">
-            <img
-              src="images/pizza-1.png"
-              alt="BBQ Chicken Pizza image"
-              width="400"
-            />
-            <h2>
-              BBQ Chicken Pizza <br /><span> Ksh. 1500</span>
-            </h2>
-            <button class="add-btn">Add to Cart</button>
+        <div class="special__menu">
+          <div class="special__menu__item">
+            <div class="special__menu__item__image">
+              <img
+                src="images/barbecue-chicken-pizza.png"
+                alt="BBQ Chicken Pizza image"
+                width="300"
+              />
+            </div>
+            <div class="special__menu__item__content">
+              <p>BBQ Chicken Pizza</p>
+              <p class="text__gray">(Cheese with Shrimp)</p>
+              <p>Ksh. 1500</p>
+            </div>
+            <div class="special__menu__item__button">
+              <button>Add to Cart</button>
+            </div>
           </div>
-          <div class="Special__Menu--item2">
-            <img
-              src="images/pizza-2.png"
-              alt="BBQ Chicken Pizza image"
-              width="300"
-            />
-            <h2>
-                BBQ Chicken Pizza <br /><span> Ksh. 1500</span>
-            </h2>
-            <button class="add-btn">Add to Cart</button>
+          <div class="special__menu__item">
+            <div class="special__menu__item__image">
+              <img
+                src="images/tandoori-chicken.png"
+                alt="BBQ Chicken Pizza image"
+                width="300"
+              />
+            </div>
+            <div class="special__menu__item__content">
+              <p>Tandoori Chicken Pizza</p>
+              <p class="text__gray">(Cheese with Shrimp)</p>
+              <p>Ksh. 1500</p>
+            </div>
+            <div class="special__menu__item__button">
+              <button>Add to Cart</button>
+            </div>
           </div>
-          <div class="Special__Menu--item3">
-            <img
-              src="images/pizza-3.png"
-              alt="BBQ Chicken Pizza image"
-              width="300"
-            />
-            <h2>
-                BBQ Chicken Pizza <br /><span> Ksh. 1500</span>
-            </h2>
-            <button class="add-btn">Add to Cart</button>
+          <div class="special__menu__item">
+            <div class="special__menu__item__image">
+              <img
+                src="images/kebab.png"
+                alt="BBQ Chicken Pizza image"
+                width="380"
+              />
+            </div>
+            <div class="special__menu__item__content">
+              <p>Chicken Kebab Pizza</p>
+              <p class="text__gray">(Cheese with Shrimp)</p>
+              <p>Ksh. 1500</p>
+            </div>
+            <div class="special__menu__item__button">
+              <button>Add to Cart</button>
+            </div>
           </div>
-          <div class="Special__Menu--item3">
-            <img
-              src="images/pizza-4.png"
-              alt="BBQ Chicken Pizza image"
-              width="300"
-            />
-            <h2>
-                BBQ Chicken Pizza <br /><span> Ksh. 1500</span>
-            </h2>
-            <button class="add-btn">Add to Cart</button>
-          </div>
-        </div>
-      <div>
-          <div class="Special__Menu--item1">
-            <img
-              src="images/pizza-1.png"
-              alt="BBQ Chicken Pizza image"
-              width="400"
-            />
-            <h2>
-              BBQ Chicken Pizza <br /><span> Ksh. 1500</span>
-            </h2>
-            <button class="add-btn">Add to Cart</button>
-          </div>
-          <div class="Special__Menu--item2">
-            <img
-              src="images/pizza-2.png"
-              alt="BBQ Chicken Pizza image"
-              width="300"
-            />
-            <h2>
-                BBQ Chicken Pizza <br /><span> Ksh. 1500</span>
-            </h2>
-            <button class="add-btn">Add to Cart</button>
-          </div>
-          <div class="Special__Menu--item3">
-            <img
-              src="images/pizza-3.png"
-              alt="BBQ Chicken Pizza image"
-              width="300"
-            />
-            <h2>
-                BBQ Chicken Pizza <br /><span> Ksh. 1500</span>
-            </h2>
-            <button class="add-btn">Add to Cart</button>
-          </div>
-          <div class="Special__Menu--item3">
-            <img
-              src="images/pizza-4.png"
-              alt="BBQ Chicken Pizza image"
-              width="300"
-            />
-            <h2>
-                BBQ Chicken Pizza <br /><span> Ksh. 1500</span>
-            </h2>
-            <button class="add-btn">Add to Cart</button>
+          <div class="special__menu__item">
+            <div class="special__menu__item__image">
+              <img
+                src="images/tandoori-chicken.png"
+                alt="BBQ Chicken Pizza image"
+                width="300"
+              />
+            </div>
+            <div class="special__menu__item__content">
+              <p>Tandoori Chicken Pizza</p>
+              <p class="text__gray">(Cheese with Shrimp)</p>
+              <p>Ksh. 1500</p>
+            </div>
+            <div class="special__menu__item__button">
+              <button>Add to Cart</button>
+            </div>
           </div>
         </div>
-      <div>
-          <div class="Special__Menu--item1">
-            <img
-              src="images/pizza-1.png"
-              alt="BBQ Chicken Pizza image"
-              width="400"
-            />
-            <h2>
-              BBQ Chicken Pizza <br /><span> Ksh. 1500</span>
-            </h2>
-            <button class="add-btn">Add to Cart</button>
+
+
+
+        <div class="special__menu">
+          <div class="special__menu__item">
+            <div class="special__menu__item__image">
+              <img
+                src="images/barbecue-chicken-pizza.png"
+                alt="BBQ Chicken Pizza image"
+                width="300"
+              />
+            </div>
+            <div class="special__menu__item__content">
+              <p>BBQ Chicken Pizza</p>
+              <p class="text__gray">(Cheese with Shrimp)</p>
+              <p>Ksh. 1500</p>
+            </div>
+            <div class="special__menu__item__button">
+              <button>Add to Cart</button>
+            </div>
           </div>
-          <div class="Special__Menu--item2">
-            <img
-              src="images/pizza-2.png"
-              alt="BBQ Chicken Pizza image"
-              width="300"
-            />
-            <h2>
-                BBQ Chicken Pizza <br /><span> Ksh. 1500</span>
-            </h2>
-            <button class="add-btn">Add to Cart</button>
+          <div class="special__menu__item">
+            <div class="special__menu__item__image">
+              <img
+                src="images/tandoori-chicken.png"
+                alt="BBQ Chicken Pizza image"
+                width="300"
+              />
+            </div>
+            <div class="special__menu__item__content">
+              <p>Tandoori Chicken Pizza</p>
+              <p class="text__gray">(Cheese with Shrimp)</p>
+              <p>Ksh. 1500</p>
+            </div>
+            <div class="special__menu__item__button">
+              <button>Add to Cart</button>
+            </div>
           </div>
-          <div class="Special__Menu--item3">
-            <img
-              src="images/pizza-3.png"
-              alt="BBQ Chicken Pizza image"
-              width="300"
-            />
-            <h2>
-                BBQ Chicken Pizza <br /><span> Ksh. 1500</span>
-            </h2>
-            <button class="add-btn">Add to Cart</button>
+          <div class="special__menu__item">
+            <div class="special__menu__item__image">
+              <img
+                src="images/kebab.png"
+                alt="BBQ Chicken Pizza image"
+                width="380"
+              />
+            </div>
+            <div class="special__menu__item__content">
+              <p>Chicken Kebab Pizza</p>
+              <p class="text__gray">(Cheese with Shrimp)</p>
+              <p>Ksh. 1500</p>
+            </div>
+            <div class="special__menu__item__button">
+              <button>Add to Cart</button>
+            </div>
           </div>
-          <div class="Special__Menu--item3">
-            <img
-              src="images/pizza-4.png"
-              alt="BBQ Chicken Pizza image"
-              width="300"
-            />
-            <h2>
-                BBQ Chicken Pizza <br /><span> Ksh. 1500</span>
-            </h2>
-            <button class="add-btn">Add to Cart</button>
-          </div>
-        </div>
-      <div>
-          <div class="Special__Menu--item1">
-            <img
-              src="images/pizza-1.png"
-              alt="BBQ Chicken Pizza image"
-              width="400"
-            />
-            <h2>
-              BBQ Chicken Pizza <br /><span> Ksh. 1500</span>
-            </h2>
-            <button class="add-btn">Add to Cart</button>
-          </div>
-          <div class="Special__Menu--item2">
-            <img
-              src="images/pizza-2.png"
-              alt="BBQ Chicken Pizza image"
-              width="300"
-            />
-            <h2>
-                BBQ Chicken Pizza <br /><span> Ksh. 1500</span>
-            </h2>
-            <button class="add-btn">Add to Cart</button>
-          </div>
-          <div class="Special__Menu--item3">
-            <img
-              src="images/pizza-3.png"
-              alt="BBQ Chicken Pizza image"
-              width="300"
-            />
-            <h2>
-                BBQ Chicken Pizza <br /><span> Ksh. 1500</span>
-            </h2>
-            <button class="add-btn">Add to Cart</button>
-          </div>
-          <div class="Special__Menu--item3">
-            <img
-              src="images/pizza-4.png"
-              alt="BBQ Chicken Pizza image"
-              width="300"
-            />
-            <h2>
-                BBQ Chicken Pizza <br /><span> Ksh. 1500</span>
-            </h2>
-            <button class="add-btn">Add to Cart</button>
+          <div class="special__menu__item">
+            <div class="special__menu__item__image">
+              <img
+                src="images/tandoori-chicken.png"
+                alt="BBQ Chicken Pizza image"
+                width="300"
+              />
+            </div>
+            <div class="special__menu__item__content">
+              <p>Tandoori Chicken Pizza</p>
+              <p class="text__gray">(Cheese with Shrimp)</p>
+              <p>Ksh. 1500</p>
+            </div>
+            <div class="special__menu__item__button">
+              <button>Add to Cart</button>
+            </div>
           </div>
         </div>
-      <div>
-          <div class="Special__Menu--item1">
-            <img
-              src="images/pizza-1.png"
-              alt="BBQ Chicken Pizza image"
-              width="400"
-            />
-            <h2>
-              BBQ Chicken Pizza <br /><span> Ksh. 1500</span>
-            </h2>
-            <button class="add-btn">Add to Cart</button>
+
+
+
+        <div class="special__menu">
+          <div class="special__menu__item">
+            <div class="special__menu__item__image">
+              <img
+                src="images/barbecue-chicken-pizza.png"
+                alt="BBQ Chicken Pizza image"
+                width="300"
+              />
+            </div>
+            <div class="special__menu__item__content">
+              <p>BBQ Chicken Pizza</p>
+              <p class="text__gray">(Cheese with Shrimp)</p>
+              <p>Ksh. 1500</p>
+            </div>
+            <div class="special__menu__item__button">
+              <button>Add to Cart</button>
+            </div>
           </div>
-          <div class="Special__Menu--item2">
-            <img
-              src="images/pizza-2.png"
-              alt="BBQ Chicken Pizza image"
-              width="300"
-            />
-            <h2>
-                BBQ Chicken Pizza <br /><span> Ksh. 1500</span>
-            </h2>
-            <button class="add-btn">Add to Cart</button>
+          <div class="special__menu__item">
+            <div class="special__menu__item__image">
+              <img
+                src="images/tandoori-chicken.png"
+                alt="BBQ Chicken Pizza image"
+                width="300"
+              />
+            </div>
+            <div class="special__menu__item__content">
+              <p>Tandoori Chicken Pizza</p>
+              <p class="text__gray">(Cheese with Shrimp)</p>
+              <p>Ksh. 1500</p>
+            </div>
+            <div class="special__menu__item__button">
+              <button>Add to Cart</button>
+            </div>
           </div>
-          <div class="Special__Menu--item3">
-            <img
-              src="images/pizza-3.png"
-              alt="BBQ Chicken Pizza image"
-              width="300"
-            />
-            <h2>
-                BBQ Chicken Pizza <br /><span> Ksh. 1500</span>
-            </h2>
-            <button class="add-btn">Add to Cart</button>
+          <div class="special__menu__item">
+            <div class="special__menu__item__image">
+              <img
+                src="images/kebab.png"
+                alt="BBQ Chicken Pizza image"
+                width="380"
+              />
+            </div>
+            <div class="special__menu__item__content">
+              <p>Chicken Kebab Pizza</p>
+              <p class="text__gray">(Cheese with Shrimp)</p>
+              <p>Ksh. 1500</p>
+            </div>
+            <div class="special__menu__item__button">
+              <button>Add to Cart</button>
+            </div>
           </div>
-          <div class="Special__Menu--item3">
-            <img
-              src="images/pizza-4.png"
-              alt="BBQ Chicken Pizza image"
-              width="300"
-            />
-            <h2>
-                BBQ Chicken Pizza <br /><span> Ksh. 1500</span>
-            </h2>
-            <button class="add-btn">Add to Cart</button>
+          <div class="special__menu__item">
+            <div class="special__menu__item__image">
+              <img
+                src="images/tandoori-chicken.png"
+                alt="BBQ Chicken Pizza image"
+                width="300"
+              />
+            </div>
+            <div class="special__menu__item__content">
+              <p>Tandoori Chicken Pizza</p>
+              <p class="text__gray">(Cheese with Shrimp)</p>
+              <p>Ksh. 1500</p>
+            </div>
+            <div class="special__menu__item__button">
+              <button>Add to Cart</button>
+            </div>
           </div>
         </div>
+
+
+
+        <div class="special__menu">
+          <div class="special__menu__item">
+            <div class="special__menu__item__image">
+              <img
+                src="images/barbecue-chicken-pizza.png"
+                alt="BBQ Chicken Pizza image"
+                width="300"
+              />
+            </div>
+            <div class="special__menu__item__content">
+              <p>BBQ Chicken Pizza</p>
+              <p class="text__gray">(Cheese with Shrimp)</p>
+              <p>Ksh. 1500</p>
+            </div>
+            <div class="special__menu__item__button">
+              <button>Add to Cart</button>
+            </div>
           </div>
-        </div>
-  
-              <!--footer section-->
-    <div class="footer">
-        <div class="footer__images">
-          <img src="images/logo_light.svg" alt="logo footer image" width="300" />
-          <h3>Stay Connected</h3>
-          <img src="images/facebook.png" alt="facebook image" width="100" />
-          <img src="images/instagram.png" alt="instagram image" width="100" />
-          <img src="images/twitter.png" alt="twitter image" width="100" />
-          <img src="images/linkedin.png" alt="linkedin image" width="100" />
-        </div>
-        <div class="quick-links">
-          <p>Quick Links</p>
-          <li><a href="/index.html">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="/shop.html">Shop</a></li>
-          <li><a href="#contact">Contact Us</a></li>
-        </div>
-        <div>
-          <p>Subscribe To Our Newsletter to<br>stay updated.</p>
-            
-          <form>
-            <input type="text" placeholder="Email Address" />
-            <button>Subscribe</button>
-          </form>
+          <div class="special__menu__item">
+            <div class="special__menu__item__image">
+              <img
+                src="images/tandoori-chicken.png"
+                alt="BBQ Chicken Pizza image"
+                width="300"
+              />
+            </div>
+            <div class="special__menu__item__content">
+              <p>Tandoori Chicken Pizza</p>
+              <p class="text__gray">(Cheese with Shrimp)</p>
+              <p>Ksh. 1500</p>
+            </div>
+            <div class="special__menu__item__button">
+              <button>Add to Cart</button>
+            </div>
+          </div>
+          <div class="special__menu__item">
+            <div class="special__menu__item__image">
+              <img
+                src="images/kebab.png"
+                alt="BBQ Chicken Pizza image"
+                width="380"
+              />
+            </div>
+            <div class="special__menu__item__content">
+              <p>Chicken Kebab Pizza</p>
+              <p class="text__gray">(Cheese with Shrimp)</p>
+              <p>Ksh. 1500</p>
+            </div>
+            <div class="special__menu__item__button">
+              <button>Add to Cart</button>
+            </div>
+          </div>
+          <div class="special__menu__item">
+            <div class="special__menu__item__image">
+              <img
+                src="images/tandoori-chicken.png"
+                alt="BBQ Chicken Pizza image"
+                width="300"
+              />
+            </div>
+            <div class="special__menu__item__content">
+              <p>Tandoori Chicken Pizza</p>
+              <p class="text__gray">(Cheese with Shrimp)</p>
+              <p>Ksh. 1500</p>
+            </div>
+            <div class="special__menu__item__button">
+              <button>Add to Cart</button>
+            </div>
+          </div>
         </div>
       </div>
-  
-</body>
+    </section>
+
+    <!--footer section-->
+    <div class="footer">
+      <div class="footer__images">
+        <img src="images/logo_light.svg" alt="logo footer image" width="300" />
+        <h3>Stay Connected</h3>
+        <img src="images/facebook.png" alt="facebook image" width="100" />
+        <img src="images/instagram.png" alt="instagram image" width="100" />
+        <img src="images/twitter.png" alt="twitter image" width="100" />
+        <img src="images/linkedin.png" alt="linkedin image" width="100" />
+      </div>
+      <div class="quick-links">
+        <p>Quick Links</p>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="/shop.html">Shop</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </div>
+      <div>
+        <p>Subscribe To Our Newsletter to<br />stay updated.</p>
+
+        <form>
+          <input type="text" placeholder="Email Address" />
+          <button>Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>

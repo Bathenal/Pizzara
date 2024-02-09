@@ -1,12 +1,10 @@
 .menu {
   text-align: center;
-  justify-content: space-between;
-  margin: 1em 1em;
-  padding: 1em 1em;
+  /* margin: 1em 1em;
+  padding: 1em 1em; */
+  border-bottom: solid black;
 }
-.menu p,
-h1 {
-  margin: 0 auto;
+.menu p {
   padding-top: 1em;
   padding-bottom: 1em;
 }
@@ -25,44 +23,62 @@ h1 {
   background-color: #eea539;
   color: #ffffff;
 }
-.button2 {
-  align-self: auto;
-  border: none;
-  
-}
-
-.Special__Menu {
+.special__menu{
   display: flex;
   justify-content: space-between;
-  align-items: wrap;
-  /* margin: 2em 2em;
-    padding: 2em 2em; */
+  margin: 2em 0;
 }
-.Special__Menu--item1,
-.Special__Menu--item2,
-.Special__Menu--item3 {
+/* .special__menu__item__image{
+  background-color:rebeccapurple ;
+} */
+.special__menu__item{
+  width: 20%;
+  text-align: center;
+}
+.special__menu__item__content{
+  background-color: #f4f7fb;
+  text-align: center;
+  padding:8em 0 3em 0;
+  margin-top: -8em;
+}
+.special__menu__item__content p:not(:nth-child(2)){
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.special__menu__item__content p:nth-child(2){
+  margin: .5em 0;
+  font-size: 1.3rem;
+}
+.special__menu__item__button{
+  margin-top: -2em;
+}
+.special__menu__item__button button{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 1em 4em;
+  font-size: 1.2rem;
+  font-weight: bold;
+  /*  */
+}
+
+
+
+/* .special__menu {
+  display: flex;
+  justify-content: space-between;
+
+
+}
+.special__menu--item{
   display: inline-block;
   justify-content: center;
   background-color: aliceblue;
-  /* align-items: center;
-    align-content: center; */
-  gap: 2rem;
-}
-.why {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 2em;
-}
-.why__right img {
-  background-color: black;
-  border-radius: 50%;
-}
 
-.add-btn {
-  background-color: black;
-  color: white;
-  align-self: auto;
-  border: none;
-  padding: 2em;
-  margin: 2em;
-}
+  gap: 2rem;
+} */
+
+
+/* .add-btn {
+  
+} */

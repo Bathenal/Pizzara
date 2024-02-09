@@ -1,9 +1,12 @@
-
+.nav{
+  background-color: #f4f7fb;
+  padding: 2em 0;
+  /* height: 15vh; */
+}
 .nav__container {
   display: flex;
-  justify-content: space-around;
-  background-color: #f4f7fb;
-  height: 15vh;
+  justify-content: space-between;
+
   align-items: center;
 }
 
@@ -25,6 +28,9 @@
   display: flex;
   gap: 3em;
 }
+.navigation__right i{
+  display: none;
+}
 /* Change the link color to orange on hover */
 li a:hover {
   background-color: #eea539;
@@ -34,3 +40,6 @@ li a:hover {
 .home {
   background-color: #eea539;
 }
+
+
+

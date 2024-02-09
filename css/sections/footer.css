@@ -5,10 +5,31 @@
     color: #ffffff;
     gap: 10em;
     padding: 4em;
+    justify-content: space-around;
+
 
 }
-.quick-links ul li a{
-    list-style: none;
-    text-decoration: none;
+.quick-links{
+    list-style-type: none;
+    text-decoration-style: none;
+}
+.footer__form{
+    display: flex;
+    width: 100%;
+
+}
+.footer__form input{
+    display: flex;
+    padding: 2em;
+    font-size: 1rem;
+    width: 80%;
+}
+.footer__form__button{
+    display: flex;
+    width: 20%;
+    padding: 2em;
+    font-size: 1rem;
+    
+    /* color: #ffffff; */
 }
 
