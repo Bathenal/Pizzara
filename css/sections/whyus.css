@@ -3,13 +3,21 @@
     justify-content: space-evenly;
     padding: 2em;
   }
+  .why
   .why__right--section{
-    background-color: aliceblue;
+    background-color: white;
   }
   .why__right__image{
+    display: flex;
+    justify-content: space-between;
     width: 2em;
     border-radius: 50%;
+    padding: 2em;
   }
   .why__right img {
     background-color: black;
+  }
+  .why__right__content{
+    background-color: aliceblue;
+    font-size: 1rem;
   }

@@ -36,16 +36,18 @@
   width: 80%;
 
 }
-.hero__left__search--btn{
+.hero__left form{
   display: flex;
-  width: 20%;
-  /* font-size: 1rem; */
+  align-items: center;
 }
-.btn1{
-  /* padding: 2em; */
+.hero__left button{
+  color: white;
+  padding: 2.5em 3.3em;
 }
-
-
+.hero__left__search--btn{
+  background-color: black;
+  
+}
 
 .hero__left--images {
   display: flex;
